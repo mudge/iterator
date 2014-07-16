@@ -1,4 +1,4 @@
-# Iterator
+# Iterator [![Build Status](https://travis-ci.org/mudge/iterator.svg?branch=master)](https://travis-ci.org/mudge/iterator)
 
 An assortment of [Iterators](http://www.php.net/manual/en/class.iterator.php)
 for PHP based on [Guzzle Iterator](https://github.com/guzzle/iterator).

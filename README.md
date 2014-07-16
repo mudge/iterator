@@ -10,15 +10,15 @@ FlatMapIterator :: Traversable a -> (a -> RecursiveIterator b) -> RecursiveItera
 ```
 
 Maps over values in a
-[Traversable](http://php.net/manual/en/class.traversable.php), applying a
+[`Traversable`](http://php.net/manual/en/class.traversable.php), applying a
 function that returns a
-[RecursiveIterator](http://uk3.php.net/manual/en/class.recursiveiterator.php)
+[`RecursiveIterator`](http://uk3.php.net/manual/en/class.recursiveiterator.php)
 (e.g. a
-[RecursiveArrayIterator](http://uk3.php.net/manual/en/class.recursivearrayiterator.php))
-and returns a new RecursiveIterator of the new values.
+[`RecursiveArrayIterator`](http://uk3.php.net/manual/en/class.recursivearrayiterator.php))
+and returns a new `RecursiveIterator` of the new values.
 
 This can then be used with a
-[RecursiveIteratorIterator](http://uk3.php.net/manual/en/class.recursiveiteratoriterator.php)
+[`RecursiveIteratorIterator`](http://uk3.php.net/manual/en/class.recursiveiteratoriterator.php)
 to flatten all values like so:
 
 ```php

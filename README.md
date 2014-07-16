@@ -31,6 +31,13 @@ $values = iterator_to_array($recursiveIterator, false));
 // => array(1, 2, 2, 4);
 ```
 
+## References
+
+* [Guzzle Iterator](https://github.com/guzzle/iterator);
+* [Hoa Iterator](https://github.com/hoaproject/Iterator);
+* [How does RecursiveIteratorIterator work in
+  PHP?](http://stackoverflow.com/questions/12077177/how-does-recursiveiteratoriterator-work-in-php);
+
 ## License
 
 Copyright © 2014 Paul Mucur.
